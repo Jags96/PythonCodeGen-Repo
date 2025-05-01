@@ -1,14 +1,15 @@
 # PythonCodeGen-Repo
 ------------
-------------
 This Repository contains the experimental setup and code
 ------------
-------------
 
+
+
+-------------
 # Python Code Generation using Lightweight LLMs
 
 ## Project Overview
-Developed privacy-preserving Python code generation models using lightweight Large Language Models (LLMs) capable of running locally on consumer hardware. Implemented advanced techniques including continual pretraining, 4-bit quantization, and Parameter-Efficient Fine-Tuning (PEFT) to optimize various model architectures (GPT-2, LLaMA 3.2, Gemma 3, Qwen 2.5) ranging from 124M to 3B parameters. Successfully engineered models that generate high-quality Python code without cloud dependencies, demonstrating expertise in NLP, transformer architectures, and ML optimization techniques.
+Developed Python code generation models using lightweight Large Language Models (LLMs) capable of running locally on consumer hardware. Implemented advanced techniques including continual pretraining, 4-bit quantization, and Parameter-Efficient Fine-Tuning (PEFT) to optimize various model architectures (GPT-2, LLaMA 3.2, Gemma 3, Qwen 2.5) ranging from 124M to 3B parameters. Successfully engineered models that generate high-quality Python code without cloud dependencies, demonstrating expertise in NLP, transformer architectures, and ML optimization techniques.
 
 ## Key Contributions
 
@@ -37,16 +38,14 @@ Developed privacy-preserving Python code generation models using lightweight Lar
 - Leveraged PyTorch, TensorFlow, and Hugging Face Transformers for advanced model development and training
 - Implemented the Unsloth framework with custom modifications for highly efficient fine-tuning of billion-parameter models
 - Engineered scalable data processing pipelines using pandas, numpy, and custom Python tools to handle large-scale code datasets
-- Optimized training processes through gradient accumulation and advanced scheduling to maximize performance on limited computational resources (single GPU with 8GB VRAM)
+- Optimized training processes through gradient accumulation and advanced scheduling to maximize performance on limited computational resources (single GPU with 10GB VRAM for Finetuning and Utilized Multi-GPU setup for pretraining)
 - Implemented custom logging and monitoring tools for tracking training progress and model performance
-- Utilized Docker containers for reproducible research environment and deployment testing
 
 ## Results & Impact
-- Successfully engineered privacy-preserving code generation models that run locally on personal hardware with minimal performance tradeoffs
-- Demonstrated through statistical analysis that optimized 3B parameter models can achieve high-quality Python code generation comparable to much larger cloud-based alternatives
+- Successfully engineered python code generation models.
 - Identified key limitations and developed concrete roadmap for future research directions in local code generation models
-- Published academic paper documenting methodology and findings, contributing to the field's understanding of practical tradeoffs between model size, performance, and privacy in AI code assistants
-- Created potential for application in privacy-sensitive environments where code data cannot be transmitted to external servers
+- Documented Report paper documenting methodology and findings, contributing to the field's understanding of practical tradeoffs between model size, performance in AI code assistants
+
 
 ## Technologies & Skills Demonstrated
 **ML/DL**: PyTorch, TensorFlow, Hugging Face Transformers, Parameter-Efficient Fine-Tuning (PEFT), LoRA, Quantization, Accelerate
