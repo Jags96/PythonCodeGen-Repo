@@ -1,5 +1,8 @@
 # PythonCodeGen-Repo
+------------
+------------
 This Repository contains the experimental setup and code
+------------
 ------------
 
 # Python Code Generation using Lightweight LLMs
@@ -46,8 +49,13 @@ Developed privacy-preserving Python code generation models using lightweight Lar
 - Created potential for application in privacy-sensitive environments where code data cannot be transmitted to external servers
 
 ## Technologies & Skills Demonstrated
-**ML/DL**: PyTorch, TensorFlow, Hugging Face Transformers, Parameter-Efficient Fine-Tuning (PEFT), LoRA, Quantization
+**ML/DL**: PyTorch, TensorFlow, Hugging Face Transformers, Parameter-Efficient Fine-Tuning (PEFT), LoRA, Quantization, Accelerate
+
 **Models**: GPT-2, LLaMA 3.2, Gemma 3, Qwen 2.5
+
 **Data Science**: pandas, numpy, scikit-learn, statistical analysis, data visualization, experimental design
+
 **Optimization**: gradient checkpointing, 4-bit quantization, efficient training strategies
-**Infrastructure**: Docker, single-GPU optimization, memory-efficient processing
+
+**Infrastructure**: Docker, single-GPU optimization, memory-efficient processing, Multi-GPU optimization
+
