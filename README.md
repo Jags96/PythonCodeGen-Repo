@@ -56,5 +56,5 @@ Developed Python code generation models using lightweight Large Language Models 
 
 **Optimization**: gradient checkpointing, 4-bit quantization, efficient training strategies
 
-**Infrastructure**: Docker, single-GPU optimization, memory-efficient processing, Multi-GPU optimization
+**Infrastructure**: Single-GPU optimization, memory-efficient processing, Multi-GPU optimization
 
